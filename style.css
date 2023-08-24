@@ -63,6 +63,7 @@ body {
  #navbar li {
     list-style: none;
     padding: 0 20px;
+    position: relative;
  }
 
  #navbar li a {
@@ -73,12 +74,44 @@ body {
     transition: 0.3s ease;
  }
 
- #navbar li a:hover {
+ #navbar li a:hover,
+ #navbar li a.active {
     color: #f39405;
+ }
+
+ #navbar li a.active::after,
+ #navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #f39405;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
  }
 /*hompe*/
 
+.slider {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.slider-content {
+    display: flex;
+    transition: 0.3s ease-in-out;
+}
+.slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
 
 /*blog*/
 
