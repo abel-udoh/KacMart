@@ -244,6 +244,103 @@ img {vertical-align: middle;}
 }
 /*blog*/
 
+#blog-banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("images/Products/BlogPhoto.PNG");
+  width: 100%;
+  height: 16.5vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#blog-banner h5{
+  color: #fff;
+  font-size: 15px;
+}
+
+#blog-banner span{
+  color: #fff;
+  font-size: 15px;
+}
+
+#container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+#container .container-blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("images/Products/TE1.PNG");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#container .container-blog2{
+  background-image: url("images/Products/TE2.PNG");
+}
+
+#container .post3{
+  background-image: url("images/Products/Pub3.PNG");
+}
+
+#container .post4{
+  background-image: url("images/Products/Pub2.PNG");
+}
+
+#container h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#container h5{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+#container span{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#container p{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#container .container-blog:hover button{
+  background: #088178;
+  border: 1px solid #088178;
+}
+
 
 
 /*about*/
