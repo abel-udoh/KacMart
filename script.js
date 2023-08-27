@@ -20,8 +20,8 @@ function showSlides() {
 
 
 
-// Get the products section animate as user scroll down the scetion
-const productsSection = document.querySelector('#products1 .pro');
+// Get the products section to animate as user scroll down the scetion
+const productsSection = document.querySelector('.pro-container');
 
 // Function to check if an element is in the viewport
 function isInViewport(element) {
@@ -37,7 +37,7 @@ function isInViewport(element) {
 // Function to add animation class when the section is in viewport
 function handleScroll() {
   if (isInViewport(productsSection)) {
-    productsSection.classList.add('products1.pro'); // Add the class that triggers the animation
+    productsSection.classList.add('.pro'); // Add the class that triggers the animation
     window.removeEventListener('scroll', handleScroll); // Remove the scroll event listener once the animation is triggered
   }
 }
