@@ -331,6 +331,19 @@ img {vertical-align: middle;}
   right: 10px;
 }
 
+/* animation effect */
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#products1 .pro {
+  animation: zoomIn 2.0s forwards;
+}
 
 #banner {
   display: flex;
@@ -367,6 +380,11 @@ img {vertical-align: middle;}
   background-color: #140557;
   color: #fff;
 }
+
+
+
+
+
 /*blog*/
 
 #blog-banner{
