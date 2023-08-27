@@ -49,10 +49,8 @@ button.normal {
   border: none;
   outline: none;
   transition: 0.2s;
-
-
-
 }
+
 body {
     width: 100%;
 }
@@ -380,11 +378,54 @@ img {vertical-align: middle;}
   background-color: #140557;
   color: #fff;
 }
+#small-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+#small-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/small-banner\ 3.jpg);
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#small-banner  h4 {
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: 500;
+}
 
+#small-banner  h5 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 900;
+}
 
+#small-banner span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
 
-
+#small-banner .banner-box button {
+  color: #140557;
+  border-radius: 10px;
+}
+#small-banner .banner-box:hover button {
+  color: #fff;
+  background-color: #140557;
+  border: 1px solid #f0ebeb;
+  border-radius: 10px;
+}
 /*blog*/
 
 #blog-banner{
