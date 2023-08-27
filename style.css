@@ -367,7 +367,13 @@ button.white {
   background-position: center;
   padding: 30px;
 }
-
+/*
+#container .container-blog p {
+  font-size: 12px;
+  font-weight: 800;
+  color: #f0ebeb;
+}
+*/
 #container .container-blog2{
   background-image: url("images/Products/TE2.PNG");
 }
