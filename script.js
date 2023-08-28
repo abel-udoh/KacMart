@@ -18,10 +18,8 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
-
-
 // Get the products section to animate as user scroll down the scetion
-const productsSection = document.querySelector('.pro-container');
+const productsSection = document.querySelector('.pro');
 
 // Function to check if an element is in the viewport
 function isInViewport(element) {
