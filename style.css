@@ -639,13 +639,20 @@ button.white {
 }
 
 /*article*/
+#blog-post .post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
 
-#article .blog-post {
-
-  font-size: 14px;
-  color: #140557;
 }
 
+#blog-post .post p {
+  font-size: 15px;
+  color: #0d0e0d;
+  font-weight: 500;
+}
 /*about*/
 
 
