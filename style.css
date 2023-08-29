@@ -396,6 +396,19 @@ img {vertical-align: middle;}
   background-position: center;
   padding: 30px;
 }
+
+#small-banner .banner-box2 {
+  background-image: url(images/small\ banner\ 4.jpg);
+}
+
+#small-banner .banner-box2 h5 {
+  color: orange;
+}
+
+#small-banner .banner-box2 span {
+  color: #fff;
+}
+
 #small-banner  h4 {
   color: #ff0000;
   font-size: 20px;
@@ -425,6 +438,45 @@ img {vertical-align: middle;}
   background-color: #140557;
   border: 1px solid #f0ebeb;
   border-radius: 10px;
+}
+
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/small\ banner\ 7.jpg);
+  min-width: 30px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 h2 {
+  color: rgb(255, 123, 0);
+  font-weight: 700;
+  font-size: 22px;
+}
+#banner3 h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#banner3 .image2 {
+  background-image: url(images/small\ banner\ 8.PNG);
+}
+
+#banner3 .image3 {
+  background-image: url(images/small\ banner\ 9.jpg);
 }
 /*blog*/
 
