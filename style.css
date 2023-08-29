@@ -638,7 +638,13 @@ button.white {
   border: 1px solid #088178;
 }
 
+/*article*/
 
+#article .blog-post {
+
+  font-size: 14px;
+  color: #140557;
+}
 
 /*about*/
 
