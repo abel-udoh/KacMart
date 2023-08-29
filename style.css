@@ -461,9 +461,9 @@ img {vertical-align: middle;}
 }
 
 #banner3 h2 {
-  color: rgb(255, 123, 0);
+  color: #ff0000;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
 }
 #banner3 h3 {
   color: #fff;
@@ -472,7 +472,7 @@ img {vertical-align: middle;}
 }
 
 #banner3 .image2 {
-  background-image: url(images/small\ banner\ 8.PNG);
+  background-image: url(images/small\ banner\ 10.jpg);
 }
 
 #banner3 .image3 {
