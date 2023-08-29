@@ -478,6 +478,49 @@ img {vertical-align: middle;}
 #banner3 .image3 {
   background-image: url(images/small\ banner\ 9.jpg);
 }
+
+#Newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(images/homebanner\ 6.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #0d0e0d;
+}
+
+#Newsletter h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#Newsletter p span {
+  color: orange;
+}
+
+#Newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c9c2c2;
+}
+
+#Newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  outline: none;
+}
+
+#Newsletter button {
+  background-color: #140557;
+  color: #fff;
+  white-space: nowrap;
+}
 /*blog*/
 
 #blog-banner{
