@@ -506,6 +506,12 @@ img {vertical-align: middle;}
   color: #c9c2c2;
 }
 
+
+#Newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
 #Newsletter input {
   height: 3.125rem;
   padding: 0 1.25rem;
@@ -514,13 +520,19 @@ img {vertical-align: middle;}
   border: 1px solid transparent;
   border-radius: 7px;
   outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #Newsletter button {
-  background-color: #140557;
+  background-color: orange;
   color: #fff;
   white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
+
+
 /*blog*/
 
 #blog-banner{
