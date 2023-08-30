@@ -458,6 +458,19 @@ footer .copyright{
   background-position: center;
   padding: 30px;
 }
+
+#small-banner .banner-box2 {
+  background-image: url(images/small\ banner\ 4.jpg);
+}
+
+#small-banner .banner-box2 h5 {
+  color: orange;
+}
+
+#small-banner .banner-box2 span {
+  color: #fff;
+}
+
 #small-banner  h4 {
   color: #ff0000;
   font-size: 20px;
@@ -479,7 +492,7 @@ footer .copyright{
 }
 
 #small-banner .banner-box button {
-  color: #140557;
+  color: #fff;
   border-radius: 10px;
 }
 #small-banner .banner-box:hover button {
@@ -488,6 +501,100 @@ footer .copyright{
   border: 1px solid #f0ebeb;
   border-radius: 10px;
 }
+
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/small\ banner\ 7.jpg);
+  min-width: 30px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 h2 {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 18px;
+}
+#banner3 h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#banner3 .image2 {
+  background-image: url(images/small\ banner\ 10.jpg);
+}
+
+#banner3 .image3 {
+  background-image: url(images/small\ banner\ 9.jpg);
+}
+
+#Newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(images/homebanner\ 6.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #0d0e0d;
+}
+
+#Newsletter h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#Newsletter p span {
+  color: orange;
+}
+
+#Newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c9c2c2;
+}
+
+
+#Newsletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#Newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#Newsletter button {
+  background-color: orange;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
 /*blog*/
 
 #blog-banner{
@@ -543,13 +650,13 @@ button.white {
   background-position: center;
   padding: 30px;
 }
-/*
+
 #container .container-blog p {
   font-size: 12px;
   font-weight: 800;
   color: #f0ebeb;
 }
-*/
+
 #container .container-blog2{
   background-image: url("images/Products/TE2.PNG");
 }
@@ -593,8 +700,21 @@ button.white {
   border: 1px solid #088178;
 }
 
+/*article*/
+#blog-post .post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
 
+}
 
+#blog-post .post p {
+  font-size: 15px;
+  color: #0d0e0d;
+  font-weight: 500;
+}
 /*about*/
 
 
