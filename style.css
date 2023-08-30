@@ -521,6 +521,12 @@ footer .copyright{
   padding: 20px;
   margin-bottom: 20px;
 }
+#banner3 .banner-box:hover {
+  box-shadow: 20px 20px 30px rgb(0, 0, 0 0.06);
+  transition: 3.5s ease;
+  background-color: #eaebea;
+}
+
 
 #banner3 h2 {
   color: #ff0000;
