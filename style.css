@@ -603,7 +603,7 @@ footer .copyright{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("images/Products/BlogPhoto.PNG");
+  background-image: url("images/E-products/BBB3.JPG");
   width: 100%;
   height: 20vh;
   background-size: cover;
@@ -643,7 +643,7 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("images/Products/TE1.PNG");
+  background-image: url("images/E-products/BBB4.JPG");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -662,11 +662,27 @@ button.white {
 }
 
 #container .post3{
-  background-image: url("images/Products/Pub3.PNG");
+  background-image: url("images/Products/BKG2.jpg");
 }
 
 #container .post4{
   background-image: url("images/Products/Pub2.PNG");
+}
+
+#container .post5{
+  background-image: url("images/E-products/IMG_2153.JPG");
+}
+
+#container .post6{
+  background-image: url("images/E-products/bbb1.JPG");
+}
+
+#container .post7{
+  background-image: url("images/E-products/bbb3.JPG");
+}
+
+#container .post8{
+  background-image: url("images/E-products/bbb2.JPG");
 }
 
 #container h4{
@@ -700,6 +716,54 @@ button.white {
   border: 1px solid #088178;
 }
 
+#banner-blog3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner-blog3 .banner-boxblog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("images/E-products/BBB5.JPG");
+  min-width: 30px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner-blog3 h2 {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 18px;
+}
+#banner-blog3 h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#banner-blog3 .post2 {
+  background-image: url("images/E-products/BBB6.JPG");
+}
+
+#banner-blog3 .post3 {
+  background-image: url("images/E-products/BBB7.JPG");
+}
+
+#banner-blog3 .banner-boxblog:hover button{
+  background: #088178;
+  border: 1px solid #088178;
+}
+.thin-line {
+  border: none;
+  height: 1px;
+  background-color: orange;
+}
 /*article*/
 #blog-post .post {
   border: 1px solid #ccc;
