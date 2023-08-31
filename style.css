@@ -790,9 +790,40 @@ button.white {
 
 
 /*shop*/
+#page-header {
+  width: 100%;
+  height: 30vh;
+  background-image: url(images/homebanner5.jpg);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  padding: 14px;
+}
 
+#page-header h2 {
+  color: #fff;
 
+}
 
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #140557;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
 /*contact*/
 #contact-banner{
   display: flex;
