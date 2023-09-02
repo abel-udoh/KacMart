@@ -677,11 +677,6 @@ h3 {
     max-width: 500px;
   }
 }
-#container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 button.white {
   font-size: 13px;
@@ -695,85 +690,6 @@ button.white {
   transition: 0.2s;
 }
 
-
-
-#container .container-blog{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background-image: url("images/E-products/BBB4.JPG");
-  min-width: 580px;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
-}
-
-#container .container-blog p {
-  font-size: 12px;
-  font-weight: 800;
-  color: #f0ebeb;
-}
-
-#container .container-blog2{
-  background-image: url("images/Products/TE2.PNG");
-}
-
-#container .post3{
-  background-image: url("images/Products/BKG2.jpg");
-}
-
-#container .post4{
-  background-image: url("images/Products/Pub2.PNG");
-}
-
-#container .post5{
-  background-image: url("images/E-products/IMG_2153.JPG");
-}
-
-#container .post6{
-  background-image: url("images/E-products/bbb1.JPG");
-}
-
-#container .post7{
-  background-image: url("images/E-products/bbb3.JPG");
-}
-
-#container .post8{
-  background-image: url("images/E-products/bbb2.JPG");
-}
-
-#container h4{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-#container h5{
-  color: #fff;
-  font-size: 15px;
-  font-weight: 800;
-}
-
-#container span{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 15px;
-}
-
-#container p{
-  color: black;
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 15px;
-}
-
-#container .container-blog:hover button{
-  background: #088178;
-  border: 1px solid #088178;
-}
 
 #banner-blog3 {
   display: flex;
