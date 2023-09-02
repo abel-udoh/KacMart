@@ -521,6 +521,12 @@ footer .copyright{
   padding: 20px;
   margin-bottom: 20px;
 }
+#banner3 .banner-box:hover {
+  box-shadow: 20px 20px 30px rgb(0, 0, 0 0.06);
+  transition: 3.5s ease;
+  background-color: #eaebea;
+}
+
 
 #banner3 h2 {
   color: #ff0000;
@@ -603,7 +609,7 @@ footer .copyright{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("images/Products/BlogPhoto.PNG");
+  background-image: url("images/E-products/BBB3.JPG");
   width: 100%;
   height: 20vh;
   background-size: cover;
@@ -620,10 +626,56 @@ footer .copyright{
   font-size: 15px;
 }
 
-#container{
+
+h3 {
+  height: 5vh;
+  padding: 15px 10px 0px 10px;
+  color: darksalmon;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Blogging-Det {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post {
+  width: 600px;
+  margin: 10px 60px;
+  padding: 20px;
+}
+
+.blog-post img {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1200px;
+  height: 70vh;
+  padding: 15px 10px 0px 10px;
+}
+
+
+.read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.read-more i {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-post {
+    max-width: 500px;
+  }
 }
 
 button.white {
@@ -638,68 +690,55 @@ button.white {
   transition: 0.2s;
 }
 
-#container .container-blog{
+
+#banner-blog3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner-blog3 .banner-boxblog {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("images/Products/TE1.PNG");
-  min-width: 580px;
-  height: 50vh;
+  background-image: url("images/E-products/BBB5.JPG");
+  min-width: 30px;
+  height: 30vh;
   background-size: cover;
   background-position: center;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-#container .container-blog p {
-  font-size: 12px;
-  font-weight: 800;
-  color: #f0ebeb;
+#banner-blog3 h2 {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 18px;
 }
-
-#container .container-blog2{
-  background-image: url("images/Products/TE2.PNG");
-}
-
-#container .post3{
-  background-image: url("images/Products/Pub3.PNG");
-}
-
-#container .post4{
-  background-image: url("images/Products/Pub2.PNG");
-}
-
-#container h4{
+#banner-blog3 h3 {
   color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-#container h5{
-  color: #fff;
+  font-weight: 600;
   font-size: 15px;
-  font-weight: 800;
 }
 
-#container span{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 15px;
+#banner-blog3 .post2 {
+  background-image: url("images/E-products/BBB6.JPG");
 }
 
-#container p{
-  color: black;
-  font-size: 20px;
-  font-weight: 500;
-  padding-bottom: 15px;
+#banner-blog3 .post3 {
+  background-image: url("images/E-products/BBB7.JPG");
 }
 
-#container .container-blog:hover button{
+#banner-blog3 .banner-boxblog:hover button{
   background: #088178;
   border: 1px solid #088178;
 }
-
+.thin-line {
+  border: none;
+  height: 1px;
+  background-color: orange;
+}
 /*article*/
 #blog-post .post {
   border: 1px solid #ccc;
@@ -720,9 +759,40 @@ button.white {
 
 
 /*shop*/
+#page-header {
+  width: 100%;
+  height: 30vh;
+  background-image: url(images/homebanner5.jpg);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  padding: 14px;
+}
 
+#page-header h2 {
+  color: #fff;
 
+}
 
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #140557;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
 /*contact*/
 #contact-banner{
   display: flex;
