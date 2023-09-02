@@ -839,3 +839,152 @@ button.white {
 
 
 /*cart*/
+
+
+/*Sign Up*/
+#sign_up
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(images/small\ banner\ 7.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  }
+
+#sign_up .sign_up-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+#sign_up .sign_up-form h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #1c8adb;
+
+}
+#sign_up .sign_up-form .input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+
+}
+#sign_up .sign_up-form button {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#sign_up .sign_up-form .sign_up-btn {
+  background-color: #1c8adb;
+
+}
+#sign_up .sign_up-form .sign_up-btn:hover{
+  background-color: purple;
+}
+#sign_up .sign_up-form .google-btn {
+  background-color: #21afde;
+}
+#sign_up .sign_up-form .google-btn:hover {
+  background-color: purple;
+}
+#sign_up .sign_up-form a {
+  text-decoration: none;
+}
+#sign_up .sign_up-form hr {
+  margin-top: 20px;
+  width: 100%;
+}
+#sign_up .sign_up-form .or {
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+
+}
+#sign_up .sign_up-form img {
+  width: 70px;
+  margin-top: -50px;
+}
+#sign_up .sign_up-form a:hover{
+  color: purple;
+  transition: 0.3;
+}
+
+/*Sign In*/
+
+#sign_in
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(images/small\ banner\ 7.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#sign_in .sign_in-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+#sign_in .sign_in-form h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #1c8adb;
+
+}
+#sign_in .sign_in-form .input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+
+}
+#sign_in .sign_in-form button {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#sign_in .sign_in-form .sign_in-btn {
+  background-color: #1c8adb;
+}
+#sign_in .sign_in-form .sign_in-btn:hover{
+  background-color: purple;
+}
+#sign_in .sign_in-form a {
+  text-decoration: none;
+}
+#sign_in .sign_in-form img {
+  width: 70px;
+  margin-top: -50px;
+}
+#sign_in .sign_in-form a:hover{
+  color: purple;
+  transition: 0.3;
+}
