@@ -626,6 +626,57 @@ footer .copyright{
   font-size: 15px;
 }
 
+
+h3 {
+  height: 5vh;
+  padding: 15px 10px 0px 10px;
+  color: darksalmon;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#Blogging-Det {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post {
+  width: 600px;
+  margin: 10px 60px;
+  padding: 20px;
+}
+
+.blog-post img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1200px;
+  height: 70vh;
+  padding: 15px 10px 0px 10px;
+}
+
+
+.read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.read-more i {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-post {
+    max-width: 500px;
+  }
+}
 #container{
   display: flex;
   justify-content: space-between;
@@ -643,6 +694,8 @@ button.white {
   outline: none;
   transition: 0.2s;
 }
+
+
 
 #container .container-blog{
   display: flex;
