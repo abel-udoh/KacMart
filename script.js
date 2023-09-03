@@ -151,25 +151,25 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 
-  // Add event listener to the cart items table
-  const cartItemsTable = document.getElementById("cart-items");
-  cartItemsTable.addEventListener("click", event => {
-      // Check if the clicked element is a "Remove" button
-      if (event.target.classList.contains("remove-item")) {
-          // Get the product name associated with the clicked button
-          const productName = event.target.getAttribute("data-product");
-          
-          // Find the cart item associated with the product name
-          const cartItem = cartItems.find(item => item.product.name === productName);
-          
-          // If the cart item is found, remove it from the cart
-          if (cartItem) {
-              cartItems.splice(cartItems.indexOf(cartItem), 1);
-              cartTotal -= cartItem.subtotal;
-              updateCartTotal();
-              // Re-add the product to the cart to re-render the table
-              addToCart(cartItem.product);
-          }
-      }
-  });
+// Add event listener to the cart items table
+const cartItemsTable = document.getElementById("cart-items");
+cartItemsTable.addEventListener("click", event => {
+    // Check if the clicked element is a "Remove" button
+    if (event.target.classList.contains("remove-item")) {
+        // Get the product name associated with the clicked button
+        const productName = event.target.getAttribute("data-product");
+        
+        // Find the cart item associated with the product name
+        const cartItem = cartItems.find(item => item.product.name === productName);
+        
+        // If the cart item is found, remove it from the cart
+        if (cartItem) {
+            cartItems.splice(cartItems.indexOf(cartItem), 1);
+            cartTotal -= cartItem.subtotal;
+            updateCartTotal();
+            // Re-add the product to the cart to re-render the table
+            addToCart(cartItem.product);
+        }
+    }
+});
 });
