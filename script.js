@@ -19,29 +19,25 @@ function showSlides() {
 }
 
 // Get the products section to animate as user scroll down the scetion
-const productsSection = document.querySelector('.pro');
+window.addEventListener('scroll', reveal);
 
-// Function to check if an element is in the viewport
-function isInViewport(element) {
-  const rect = element.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
+function reveal() {
 
-// Function to add animation class when the section is in viewport
-function handleScroll() {
-  if (isInViewport(productsSection)) {
-    productsSection.classList.add('.pro'); // Add the class that triggers the animation
-    window.removeEventListener('scroll', handleScroll); // Remove the scroll event listener once the animation is triggered
+  var reveals = document.querySelectorAll('.reveal');
+
+  for(var i = 0; i < reveals.length; i++){
+
+    var windowheight = window.innerHeight;
+    var realtop = reveals(i).getBoundingclientRect().top;
+    var revealpoint = 150;
+
+    if(realtop < windowheight - revealpoint){
+      reveals(i).classList.add('active');
+
+    }
   }
 }
 
-// Add a scroll event listener
-window.addEventListener('scroll', handleScroll);
 
 
 // Define your product data (name, price, image)
