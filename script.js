@@ -17,7 +17,7 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
-
+/*
 // Get the products section to animate as user scroll down the scetion
 window.addEventListener('scroll', reveal);
 
@@ -35,11 +35,12 @@ function reveal() {
       reveals(i).classList.add('active');
 
     }
+    else{
+      reveals(i).classList.remove('active');
+    }
   }
 }
-
-
-
+*/
 // Define your product data (name, price, image)
 const products = [
   {
