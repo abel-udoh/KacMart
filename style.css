@@ -423,12 +423,13 @@ footer .copyright{
 
 .btn-purchase {
   font-size: 15px;
-  align-items: start;
+  align-items: center;
   color: #fff;
   background-color: #140557;
-  padding: 20px 15px 12px 14px;
+  padding: 10px 10px 10px 13px;
   border: 1px solid #fff;
   border-radius: 20px;
+  margin-top: 10px;
 }
 /*
 .btn {
@@ -673,7 +674,7 @@ footer .copyright{
     height: 100vh;
     width: 300px;
     background-color: #e3e6f3;
-    box-shadow: 0 40px 60px; rgba(0, 0, 0, 0.1);
+    box-shadow:0 40px 60px rgb(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
 }
 }
@@ -1004,10 +1005,8 @@ button.white {
   background-color: #000;
   color: #fff;
 }
-#cart table td:nth-child(1){
-  width: 100px;
-  text-align: center;
-}
+
+
 /*
 #cart table td:nth-child(1) button{
   color: #fff;
@@ -1022,7 +1021,7 @@ button.white {
   color: #fff;
 
 }
-*/
+
 #cart table td:nth-child(2){
   width: 150px;
   text-align: center;
@@ -1042,6 +1041,7 @@ button.white {
   width: 70px;
   padding: 10px 5px 10px 15px;
 }
+
 #cart table thead {
   border: 1px solid #e1e1e1;
   border-left: none;
@@ -1059,6 +1059,40 @@ button.white {
 
 #cart table tbody td {
   font-size: 13px;
+}
+*/
+.cart-header {
+  font-weight: 600;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  padding: 10px 20px 30px 15px;
+}
+
+.cart-item {
+  width: 65%;
+}
+.cart-item-title {
+  color: #000000;
+}
+
+
+.cart-row {
+  display: flex;
+  
+}
+
+.cart-quantity-input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 5px 10px 15px;
 }
 
 /*Sign Up*/

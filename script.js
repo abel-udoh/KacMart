@@ -66,10 +66,10 @@ function addItemToCart(title, price, imageSrc) {
   var cartItems = document.getElementsByClassName('cart-items')[0]
   var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
   for (var i = 0; i < cartItemNames.length; i++) {
-      if (cartItemNames[i].innerText == title) {
+      /*if (cartItemNames[i].innerText == title) {
           alert('This item is already added to the cart')
           return
-      }
+      }*/
   }
   var cartRowContents = `
       <div class="cart-item cart-column">
@@ -79,7 +79,7 @@ function addItemToCart(title, price, imageSrc) {
       <span class="cart-price cart-column">${price}</span>
       <div class="cart-quantity cart-column">
           <input class="cart-quantity-input" type="number" value="1">
-          <button class="btn RemoveButton" type="button"><i class="far fa-times-circle"></i></button>
+          <button class="btn RemoveButton" type="button">Remove</button>
       </div>`
   cartRow.innerHTML = cartRowContents
   cartItems.append(cartRow)
