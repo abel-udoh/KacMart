@@ -788,48 +788,6 @@ button.white {
   font-weight: 500;
 }
 /*about*/
-#AboutUs, h1, h4, ul, li{
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
-#AboutUs {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  line-height: 1.6;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
-
-nav {
-  background-color: orange;
-  color: #fff;
-  text-align: center;
-  padding: 0.5rem;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-section {
-    background-color: #333;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    
-}
 
 
 /*shop*/
