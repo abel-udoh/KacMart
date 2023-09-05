@@ -18,7 +18,6 @@ function ready() {
   }
 
   var addToCartButtons = document.getElementsByClassName('AddToCart')
-  console.log(removeCartItemButtons)
   for (var i = 0; i < addToCartButtons.length; i++) {
       var button = addToCartButtons[i]
       button.addEventListener('click', addToCartClicked)
@@ -66,10 +65,10 @@ function addItemToCart(title, price, imageSrc) {
   var cartItems = document.getElementsByClassName('cart-items')[0]
   var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
   for (var i = 0; i < cartItemNames.length; i++) {
-      /*if (cartItemNames[i].innerText == title) {
+      if (cartItemNames[i].innerText == title) {
           alert('This item is already added to the cart')
           return
-      }*/
+      }
   }
   var cartRowContents = `
       <div class="cart-item cart-column">

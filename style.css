@@ -992,7 +992,7 @@ button.white {
   white-space: nowrap;
 } 
 #cart table img{
-  width: 70px;
+  width: 40px;
 }
 .RemoveButton{
   color: #fff;
@@ -1000,6 +1000,7 @@ button.white {
   padding: 10px 8px 10px 6px;
   border: 1px solid #fff;
   border-radius: 5px;
+  margin-left: 20px;
 }
 .RemoveButton:hover{
   background-color: #000;
@@ -1076,16 +1077,16 @@ button.white {
 }
 
 .cart-item {
-  width: 65%;
+  width: 45%;
 }
 .cart-item-title {
   color: #000000;
+  margin-left: 22%;
 }
 
 
 .cart-row {
   display: flex;
-  
 }
 
 .cart-quantity-input {
