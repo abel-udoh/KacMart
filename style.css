@@ -921,7 +921,7 @@ button.white {
   font-weight: 500;
 }
 /*about*/
-#AboutUs, h1, h4, ul, li{
+#AboutUs, h1, h4, ul, li, p{
   margin: 0;
   padding: 0;
   color: #fff;
@@ -957,21 +957,21 @@ nav ul li {
 }
 
 #mission {
-    background-color: #333;
+    background-color: black;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
   }
 
   #team {
-    background-color: #333;
+    background-color: black;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
   }
 
   #contact {
-    background-color: #333;
+    background-color: black;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
