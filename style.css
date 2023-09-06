@@ -693,7 +693,7 @@ footer .copyright{
   }
   #navbar li{
     margin-bottom: 25px;
-  }
+    }
 
   #navbar.active {
     right: 0px;
@@ -704,12 +704,12 @@ footer .copyright{
     align-items: center;
    }
 
-   #mobile i {
+  #mobile i {
     color: #1a1d1c;
     font-size: 24px;
     padding-left: 20px;
    }
-   #close {
+  #close {
     display: initial;
     position: absolute;
     top: 30px;
@@ -717,50 +717,56 @@ footer .copyright{
     color: #222;
     font-size: 24px;
    }
-   #lg-bag {
+  #lg-bag {
     display: none;
    }
 
-   .slideshow-container {
+  .slideshow-container {
     width: 100%;
     position: relative;
     justify-content: center;
     align-items: center;
-  }
-    #feature {
+    }
+  #feature {
       justify-content: center;
     }
 
-    #feature .fe-box {
+  #feature .fe-box {
       margin: 15px 15px;
-  }
-    #products1 .pro-container {
+   }
+  #products1 .pro-container {
       justify-content: center;
   
-  }
-    #products1 .pro {
+    }
+  #products1 .pro {
       margin: 15px;
     }
 
-    #banner {
+  #banner {
       height: 20vh;
     }
 
-    #small-banner .banner-box {
+  #small-banner .banner-box {
       min-width: 100%;
       height: 30vh;
     }
-    #banner3 {
+  #banner3 {
       padding: 0 40px;
     }
 
-    #banner3 .banner-box {
+  #banner3 .banner-box {
       width: 28%;
   }
   #Newsletter .form {
     width: 70%;
   }
 }
+
+@media (max-width:477px) {
+
+
+}
+
 /*blog*/
 
 #blog-banner{
