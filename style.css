@@ -675,7 +675,7 @@ footer .copyright{
 @media (max-width:799px) {
   .section-p1 {
     padding: 40px 40px;
-}
+  }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -690,7 +690,7 @@ footer .copyright{
     box-shadow:0 40px 60px rgb(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
     transition: 0.3s;
-}
+  }
   #navbar li{
     margin-bottom: 25px;
   }
@@ -721,13 +721,12 @@ footer .copyright{
     display: none;
    }
 
-
    .slideshow-container {
     width: 100%;
     position: relative;
     justify-content: center;
     align-items: center;
-}
+  }
     #feature {
       justify-content: center;
     }
@@ -738,13 +737,28 @@ footer .copyright{
     #products1 .pro-container {
       justify-content: center;
   
-}
+  }
     #products1 .pro {
       margin: 15px;
     }
 
     #banner {
       height: 20vh;
+    }
+
+    #small-banner .banner-box {
+      min-width: 100%;
+      height: 30vh;
+    }
+    #banner3 {
+      padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+      width: 28%;
+  }
+  #Newsletter .form {
+    width: 70%;
   }
 }
 /*blog*/
