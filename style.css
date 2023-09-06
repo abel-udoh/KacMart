@@ -1261,6 +1261,7 @@ nav ul li {
 
 .cart-row {
   display: flex;
+  width: 70%;
 }
 
 .cart-quantity-input {
