@@ -763,8 +763,38 @@ footer .copyright{
 }
 
 @media (max-width:477px) {
+  #header {
+    padding: 10px 30px;
+  }
 
+  .section-p1 {
+    padding: 20px;
+    }
 
+  #products1 .pro {
+    width: 100%;
+  }
+  #banner {
+    height: 40vh;
+  }
+  #small-banner .banner-box {
+    height: 40vh;
+  }
+  #small-banner .banner-box2 {
+    margin-top: 20px;
+  }
+  #banner3 {
+    padding: 0 20px;
+  }
+  #banner3 .banner-box {
+    width: 100%;
+  }
+  #Newsletter {
+  padding: 40px 20px;
+  }
+  #Newsletter .form {
+    width: 100%;
+  }
 }
 
 /*blog*/
@@ -1231,6 +1261,7 @@ nav ul li {
 
 .cart-row {
   display: flex;
+  width: 70%;
 }
 
 .cart-quantity-input {
