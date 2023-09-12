@@ -261,6 +261,11 @@ footer .col{
     align-items: flex-start;
     margin-bottom: 20px;
 }
+
+footer .col h4 {
+  color: #0f0f0f;
+}
+
 footer .logo{
    margin-bottom: 30px;
 }
@@ -272,7 +277,13 @@ footer h4{
 footer p{
     font-size: 13px;
     margin: 0 0 8px 0;
+    color: #1a1d1c;
 }
+
+footer p strong{
+ color: #1a1d1c;
+}
+
 
 footer a{
     font-size: 13px;
@@ -337,6 +348,10 @@ footer .copyright{
 #products1 h2 {
   font-size: 30px;
 }
+#products1 p {
+  color: #000;
+}
+
 #products1 .pro-container{
   display: flex;
   justify-content: space-between;
@@ -1100,6 +1115,7 @@ nav ul li {
 #contact-details .details li p{
   margin: 0;
   font-size: 14px;
+  color: #1a1d1c;
 }
 #contact-details .map{
   width: 55%;
@@ -1139,8 +1155,8 @@ nav ul li {
   align-items: flex-start;
 }
 #form-details .people div img{
-  width: 65px;
-  height: 65px;
+  width: 85px;
+  height: 85px;
   object-fit: cover;
   margin-right: 15px;
 }
@@ -1148,6 +1164,7 @@ nav ul li {
   margin: 0;
   font-size: 13px;
   line-height: 18px;
+  color: #1a1d1c;
 }
 #form-details .people div p span{
   display: block;
