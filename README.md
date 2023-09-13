@@ -7,7 +7,7 @@ This project showcases a fully functional online shopping experience, built with
 
 - Deployed Site: KacMart Store (https://kacmart.pages.dev/)
 - Project Landing Page : (https://mailchi.mp/edf2daaf4ca1/kacmart-store)
-- Final Project Blog Article:
+- Final Project Blog Article: (https://medium.com/@abeludoh/development-of-a-functional-e-commerce-website-128f16ef8696)
 - Author(s) LinkedIn:
      	Michael Chime(linkedin.com/in/chime-michael-50a42b20a)
      	Abel Udoh (https://www.linkedin.com/in/abel-udoh-4a7771110)
