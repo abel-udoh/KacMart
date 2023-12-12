@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "kacmart",
+      "password": "#kacmart_root",
+      "database": "kacmart_db",
+      "host": "localhost",
+      "dialect": "mysql"
+    }
+  }
+  
