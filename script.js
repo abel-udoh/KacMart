@@ -142,6 +142,37 @@ if (close) {
     })
   }
 
+  //This handles the user signup form
+  const form = document.getElementById('sign_up'); // Use getElementById instead
+
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const formData = new FormData(form);
+  const email = formData.get('email');
+  const password = formData.get('password');
+  const firstName = formData.get('firstName'); // Add this line for first name
+  const lastName = formData.get('lastName'); // Add this line for last name
+
+  try {
+    const response = await axios.post('/api/register', { email, password, firstName, lastName });
+    if (response.data.message === 'User registered successfully') {
+      // Get the redirect URL from the response
+      const redirectUrl = response.data.redirectUrl;
+
+      // Redirect user to the login page using the URL
+      window.location.href = redirectUrl;
+    } else {
+      // Handle error messages from the backend
+      // (e.g., display error message on the page)
+      console.error(response.data.message);
+    }
+  } catch (error) {
+    // Handle other errors during registration
+    console.error(error);
+  }
+});
+
+
 /*
 // Get the products section to animate as user scroll down the scetion
 window.addEventListener('scroll', reveal);
