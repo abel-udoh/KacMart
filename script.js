@@ -143,10 +143,10 @@ if (close) {
   }
 
   //This handles the user signup form
-  const form = document.getElementById('sign_up'); // Use getElementById instead
-
-form.addEventListener('submit', async (event) => {
+const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
+form.addEventListener('Sign Up', async (event) => {
   event.preventDefault();
+  console.log('Sign Up event triggered!');
   const formData = new FormData(form);
   const email = formData.get('email');
   const password = formData.get('password');

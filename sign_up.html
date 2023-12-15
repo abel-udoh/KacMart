@@ -41,11 +41,13 @@
                 <input type="password" class="input-box" placeholder="Your Password">
                 <input type="password" class="input-box" placeholder="Confirm Password">
                 <p><span><input type="checkbox"></span>I agree to the terms of services</p>
-                <button type="button" class="sign_up-btn">Sign Up</button>
+                <!--<button type="button" class="sign_up-btn">Sign Up</button>-->
+                <button type="button" onclick="form.dispatchEvent(new Event('Sign Up'));">Sign Up</button>
+
                 <hr>
                 <p class="or">OR</p>
                 <button type="button" class="google-btn">Login with 🇬oogle</button>
-                <p>Already have an account? <a href="sign_in.html"><br>Sign In</a></p>
+                <p>Already have an account? <a href="login.html"><br>Sign In</a></p>
                 
             </form>
         </div>

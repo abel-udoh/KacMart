@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "kacmart",
-    "password": "#kacmart_root8012",
+    "password": "kacmart_root8012",
     "database": "kacmart_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
