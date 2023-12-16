@@ -54,7 +54,7 @@
           const formData = new FormData(form);
           const data = Object.fromEntries(formData);
         
-          axios.post('/api/login', data)
+          axios.post('/backend/api/login', data)
             .then((response) => {
               if (response.data.message === 'Logged in successfully') {
                 // Store the token securely (e.g., localStorage)

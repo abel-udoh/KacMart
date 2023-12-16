@@ -147,7 +147,7 @@ if (close) {
 const loginForm = document.querySelector('.sign_in-form');
 
 // Sign Up functionality
-form.addEventListener('submit', async (event) => {
+form.addEventListener('Sign Up', async (event) => {
   event.preventDefault();
   console.log('Sign Up event triggered!');
 
@@ -155,7 +155,7 @@ form.addEventListener('submit', async (event) => {
   const data = Object.fromEntries(formData);
 
   try {
-    const response = await axios.post('/api/register', data);
+    const response = await axios.post('/backend/api/register', data);
     if (response.data.message === 'User registered successfully') {
       window.location.href = response.data.redirectUrl;
     } else {
@@ -175,7 +175,7 @@ loginForm?.addEventListener('click', async (event) => {
     const data = Object.fromEntries(formData);
 
     try {
-      const response = await axios.post('/api/login', data);
+      const response = await axios.post('/backend/api/login', data);
       if (response.data.message === 'Logged in successfully') {
         // Store the token securely (e.g., localStorage)
         localStorage.setItem('token', response.data.token);

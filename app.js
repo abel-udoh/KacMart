@@ -1,5 +1,5 @@
 // Import necessary modules
-const express = require('./backend/node_modules/express')
+const express = require('./backend/node_modules/express');
 const bodyParser = require('./backend/node_modules/body-parser');
 const mysql = require('./backend/node_modules/mysql2'); // Replace with your preferred mysql library
 
@@ -33,7 +33,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Mount your routes
-app.use('/', require('./backend/routes/index')); // Replace 'index' with your actual main route file name
+app.use('/', require('./backend/routes/index')); // Your main route file
+app.use('/api/login', require('./backend/api/login')); // Login API route
+app.use('/api/register', require('./backend/api/register')); // Register API route
+app.use('/api/shop', require('./backend/api/shop')); // Shop API route (e.g., product listing)
+app.use('/api/cart', require('./backend/api/cart')); // Cart API route (e.g., add/update items)
 
 // Start the server
 const PORT = process.env.PORT || 3000;
