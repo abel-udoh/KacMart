@@ -1,7 +1,7 @@
 // Import necessary modules
-const express = require('express');
-const bodyParser = require('body-parser');
-const mysql = require('mysql2'); // Replace with your preferred mysql library
+const express = require('./backend/node_modules/express')
+const bodyParser = require('./backend/node_modules/body-parser');
+const mysql = require('./backend/node_modules/mysql2'); // Replace with your preferred mysql library
 
 // Define database connection details
 const dbConfig = {
