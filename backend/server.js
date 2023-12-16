@@ -23,7 +23,7 @@ sequelize.authenticate()
     const User = require('./models/user.js'); // Replace with the path to your User model
 
     // Define API endpoint for user registration
-    app.post('/api/register', async (req, res) => {
+    app.post('/backend/api/register', async (req, res) => {
       const { email, password, firstName, lastName } = req.body;
 
       // Validate user data
@@ -55,7 +55,7 @@ sequelize.authenticate()
     });
 
     // Define API endpoint for user login
-    app.post('/api/login', async (req, res) => {
+    app.post('/backend/api/login', async (req, res) => {
       const { email, password } = req.body;
 
       try {

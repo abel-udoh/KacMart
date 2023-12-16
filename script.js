@@ -143,7 +143,7 @@ if (close) {
   }
 
   //This handles the user signup form
-  const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
+const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
 const loginForm = document.querySelector('.sign_in-form');
 
 // Sign Up functionality

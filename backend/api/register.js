@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs'); // For password hashing
 const User = require('../models/user'); // Your user model
 
 const router = express.Router();
-
-router.post('/register', async (req, res) => {
+    console.log(router.stack);
+router.post('backend/api/register', async (req, res) => {
   const { email, password, name } = req.body;
 
   // Validate user data
