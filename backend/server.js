@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3000;
 // Include the Sequelize library
 const Sequelize = require('sequelize');
 
-// Replace the placeholder with your actual database connection code
 const sequelize = new Sequelize({
   username: process.env.DB_USERNAME || 'kacmart', // Use environment variables if available
   password: process.env.DB_PASSWORD || 'kacmart_root8012',

@@ -143,35 +143,53 @@ if (close) {
   }
 
   //This handles the user signup form
-const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
-form.addEventListener('Sign Up', async (event) => {
+  const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
+const loginForm = document.querySelector('.sign_in-form');
+
+// Sign Up functionality
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
   console.log('Sign Up event triggered!');
+
   const formData = new FormData(form);
-  const email = formData.get('email');
-  const password = formData.get('password');
-  const firstName = formData.get('firstName'); // Add this line for first name
-  const lastName = formData.get('lastName'); // Add this line for last name
+  const data = Object.fromEntries(formData);
 
   try {
-    const response = await axios.post('/api/register', { email, password, firstName, lastName });
+    const response = await axios.post('/api/register', data);
     if (response.data.message === 'User registered successfully') {
-      // Get the redirect URL from the response
-      const redirectUrl = response.data.redirectUrl;
-
-      // Redirect user to the login page using the URL
-      window.location.href = redirectUrl;
+      window.location.href = response.data.redirectUrl;
     } else {
-      // Handle error messages from the backend
-      // (e.g., display error message on the page)
       console.error(response.data.message);
     }
   } catch (error) {
-    // Handle other errors during registration
     console.error(error);
   }
 });
 
+// Login functionality
+loginForm?.addEventListener('click', async (event) => {
+  if (event.target.classList.contains('sign_in-btn')) {
+    event.preventDefault();
+
+    const formData = new FormData(loginForm);
+    const data = Object.fromEntries(formData);
+
+    try {
+      const response = await axios.post('/api/login', data);
+      if (response.data.message === 'Logged in successfully') {
+        // Store the token securely (e.g., localStorage)
+        localStorage.setItem('token', response.data.token);
+
+        // Redirect the user to the user dashboard with the token
+        window.location.href = '/user-dashboard';
+      } else {
+        console.error(response.data.message);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
+});
 
 /*
 // Get the products section to animate as user scroll down the scetion
