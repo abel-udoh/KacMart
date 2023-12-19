@@ -141,56 +141,6 @@ if (close) {
       nav.classList.remove('active');
     })
   }
-
-  //This handles the user signup form
-const form = document.querySelector('.sign_up-form') || document.querySelector('#sign_up');
-const loginForm = document.querySelector('.sign_in-form');
-
-// Sign Up functionality
-form.addEventListener('Sign Up', async (event) => {
-  event.preventDefault();
-  console.log('Sign Up event triggered!');
-
-  const formData = new FormData(form);
-  const data = Object.fromEntries(formData);
-
-  try {
-    const response = await axios.post('/backend/api/register', data);
-    if (response.data.message === 'User registered successfully') {
-      window.location.href = response.data.redirectUrl;
-    } else {
-      console.error(response.data.message);
-    }
-  } catch (error) {
-    console.error(error);
-  }
-});
-
-// Login functionality
-loginForm?.addEventListener('click', async (event) => {
-  if (event.target.classList.contains('sign_in-btn')) {
-    event.preventDefault();
-
-    const formData = new FormData(loginForm);
-    const data = Object.fromEntries(formData);
-
-    try {
-      const response = await axios.post('/backend/api/login', data);
-      if (response.data.message === 'Logged in successfully') {
-        // Store the token securely (e.g., localStorage)
-        localStorage.setItem('token', response.data.token);
-
-        // Redirect the user to the user dashboard with the token
-        window.location.href = '/user-dashboard';
-      } else {
-        console.error(response.data.message);
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  }
-});
-
 /*
 // Get the products section to animate as user scroll down the scetion
 window.addEventListener('scroll', reveal);
