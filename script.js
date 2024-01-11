@@ -141,7 +141,6 @@ if (close) {
       nav.classList.remove('active');
     })
   }
-
 /*
 // Get the products section to animate as user scroll down the scetion
 window.addEventListener('scroll', reveal);
